@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\ConsoleStructures1\ConsoleStructures1\obj\Debug\ConsoleStructures1.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\ConsoleStructures1\ConsoleStructures1\obj\Debug\ConsoleStructures1.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\ConsoleStructures1\ConsoleStructures1\bin\Debug\ConsoleStructures1.exe.config
+D:\HTML Mohinder\C#\ConsoleStructures1\ConsoleStructures1\bin\Debug\ConsoleStructures1.exe
+D:\HTML Mohinder\C#\ConsoleStructures1\ConsoleStructures1\bin\Debug\ConsoleStructures1.pdb
+D:\HTML Mohinder\C#\ConsoleStructures1\ConsoleStructures1\obj\Debug\ConsoleStructures1.exe
+D:\HTML Mohinder\C#\ConsoleStructures1\ConsoleStructures1\obj\Debug\ConsoleStructures1.pdb

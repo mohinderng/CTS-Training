@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\LinqTest\LinqTest\obj\Debug\LinqTest.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\LinqTest\LinqTest\obj\Debug\LinqTest.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\LinqTest\LinqTest\bin\Debug\LinqTest.exe.config
+D:\HTML Mohinder\C#\LinqTest\LinqTest\bin\Debug\LinqTest.exe
+D:\HTML Mohinder\C#\LinqTest\LinqTest\bin\Debug\LinqTest.pdb
+D:\HTML Mohinder\C#\LinqTest\LinqTest\obj\Debug\LinqTest.exe
+D:\HTML Mohinder\C#\LinqTest\LinqTest\obj\Debug\LinqTest.pdb

@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\SampleApp\SampleApp\obj\Debug\SampleApp.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\SampleApp\SampleApp\obj\Debug\SampleApp.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\SampleApp\SampleApp\bin\Debug\SampleApp.exe.config
+D:\HTML Mohinder\C#\SampleApp\SampleApp\bin\Debug\SampleApp.exe
+D:\HTML Mohinder\C#\SampleApp\SampleApp\bin\Debug\SampleApp.pdb
+D:\HTML Mohinder\C#\SampleApp\SampleApp\obj\Debug\SampleApp.exe
+D:\HTML Mohinder\C#\SampleApp\SampleApp\obj\Debug\SampleApp.pdb

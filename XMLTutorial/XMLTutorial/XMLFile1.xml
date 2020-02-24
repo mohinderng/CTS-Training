@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Books>
+  <Book>
+    <ID>1001</ID>
+    <Name>The Alchemist</Name>
+    <Price>400</Price>
+  </Book>
+</Books>

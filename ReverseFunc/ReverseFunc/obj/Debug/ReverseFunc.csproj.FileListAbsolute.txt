@@ -1,0 +1,5 @@
+D:\HTML Mohinder\C#\ReverseFunc\ReverseFunc\obj\Debug\ReverseFunc.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\ReverseFunc\ReverseFunc\bin\Debug\ReverseFunc.dll
+D:\HTML Mohinder\C#\ReverseFunc\ReverseFunc\bin\Debug\ReverseFunc.pdb
+D:\HTML Mohinder\C#\ReverseFunc\ReverseFunc\obj\Debug\ReverseFunc.dll
+D:\HTML Mohinder\C#\ReverseFunc\ReverseFunc\obj\Debug\ReverseFunc.pdb

@@ -1,0 +1,14 @@
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\bin\Debug\DFCodeFirstDemo.exe.config
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\bin\Debug\DFCodeFirstDemo.exe
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\bin\Debug\DFCodeFirstDemo.pdb
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\bin\Debug\EntityFramework.dll
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\bin\Debug\EntityFramework.xml
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\obj\Debug\DFCodeFirstDemo.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\obj\Debug\DFCodeFirstDemo.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\obj\Debug\DFCodeFirstDemo.csproj.CopyComplete
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\obj\Debug\DFCodeFirstDemo.exe
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\obj\Debug\DFCodeFirstDemo.pdb
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\obj\Debug\DFCodeFirstDemo.Migrations.Newmig.resources
+D:\HTML Mohinder\C#\DFCodeFirstDemo\DFCodeFirstDemo\obj\Debug\DFCodeFirstDemo.csproj.GenerateResource.cache

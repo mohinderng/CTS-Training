@@ -1,0 +1,14 @@
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\bin\Debug\SelfLearnEntity.exe.config
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\bin\Debug\SelfLearnEntity.exe
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\bin\Debug\SelfLearnEntity.pdb
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\bin\Debug\EntityFramework.dll
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\bin\Debug\EntityFramework.xml
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\obj\Debug\SelfLearnEntity.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\obj\Debug\SelfLearnEntity.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\obj\Debug\SelfLearnEntity.csproj.CopyComplete
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\obj\Debug\SelfLearnEntity.exe
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\obj\Debug\SelfLearnEntity.pdb
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\obj\Debug\SelfLearnEntity.Migrations.stumig.resources
+D:\HTML Mohinder\C#\SelfLearnEntity\SelfLearnEntity\obj\Debug\SelfLearnEntity.csproj.GenerateResource.cache

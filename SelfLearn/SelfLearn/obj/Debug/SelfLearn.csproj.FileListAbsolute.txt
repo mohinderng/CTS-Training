@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\SelfLearn\SelfLearn\bin\Debug\SelfLearn.exe.config
+D:\HTML Mohinder\C#\SelfLearn\SelfLearn\bin\Debug\SelfLearn.exe
+D:\HTML Mohinder\C#\SelfLearn\SelfLearn\bin\Debug\SelfLearn.pdb
+D:\HTML Mohinder\C#\SelfLearn\SelfLearn\obj\Debug\SelfLearn.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\SelfLearn\SelfLearn\obj\Debug\SelfLearn.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\SelfLearn\SelfLearn\obj\Debug\SelfLearn.exe
+D:\HTML Mohinder\C#\SelfLearn\SelfLearn\obj\Debug\SelfLearn.pdb

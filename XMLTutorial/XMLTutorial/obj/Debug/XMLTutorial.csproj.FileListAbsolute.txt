@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\XMLTutorial\XMLTutorial\bin\Debug\XMLTutorial.exe.config
+D:\HTML Mohinder\C#\XMLTutorial\XMLTutorial\bin\Debug\XMLTutorial.exe
+D:\HTML Mohinder\C#\XMLTutorial\XMLTutorial\bin\Debug\XMLTutorial.pdb
+D:\HTML Mohinder\C#\XMLTutorial\XMLTutorial\obj\Debug\XMLTutorial.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\XMLTutorial\XMLTutorial\obj\Debug\XMLTutorial.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\XMLTutorial\XMLTutorial\obj\Debug\XMLTutorial.exe
+D:\HTML Mohinder\C#\XMLTutorial\XMLTutorial\obj\Debug\XMLTutorial.pdb

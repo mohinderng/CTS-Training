@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\FileSend\FileSend\bin\Debug\FileSend.exe.config
+D:\HTML Mohinder\C#\FileSend\FileSend\bin\Debug\FileSend.exe
+D:\HTML Mohinder\C#\FileSend\FileSend\bin\Debug\FileSend.pdb
+D:\HTML Mohinder\C#\FileSend\FileSend\obj\Debug\FileSend.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\FileSend\FileSend\obj\Debug\FileSend.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\FileSend\FileSend\obj\Debug\FileSend.exe
+D:\HTML Mohinder\C#\FileSend\FileSend\obj\Debug\FileSend.pdb

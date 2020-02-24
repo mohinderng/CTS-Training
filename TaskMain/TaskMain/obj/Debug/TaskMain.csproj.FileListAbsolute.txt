@@ -1,0 +1,9 @@
+D:\HTML Mohinder\C#\TaskMain\TaskMain\bin\Debug\TaskMain.dll
+D:\HTML Mohinder\C#\TaskMain\TaskMain\bin\Debug\TaskMain.pdb
+D:\HTML Mohinder\C#\TaskMain\TaskMain\bin\Debug\LibraryTask1.dll
+D:\HTML Mohinder\C#\TaskMain\TaskMain\bin\Debug\LibraryTask1.pdb
+D:\HTML Mohinder\C#\TaskMain\TaskMain\obj\Debug\TaskMain.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\TaskMain\TaskMain\obj\Debug\TaskMain.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\TaskMain\TaskMain\obj\Debug\TaskMain.csproj.CopyComplete
+D:\HTML Mohinder\C#\TaskMain\TaskMain\obj\Debug\TaskMain.dll
+D:\HTML Mohinder\C#\TaskMain\TaskMain\obj\Debug\TaskMain.pdb

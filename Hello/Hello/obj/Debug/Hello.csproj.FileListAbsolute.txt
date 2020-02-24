@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\Hello\Hello\bin\Debug\Hello.exe.config
+D:\HTML Mohinder\C#\Hello\Hello\bin\Debug\Hello.exe
+D:\HTML Mohinder\C#\Hello\Hello\bin\Debug\Hello.pdb
+D:\HTML Mohinder\C#\Hello\Hello\obj\Debug\Hello.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\Hello\Hello\obj\Debug\Hello.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\Hello\Hello\obj\Debug\Hello.exe
+D:\HTML Mohinder\C#\Hello\Hello\obj\Debug\Hello.pdb

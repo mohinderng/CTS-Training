@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\ExternalDatabase\ExternalDatabase\bin\Debug\ExternalDatabase.exe.config
+D:\HTML Mohinder\C#\ExternalDatabase\ExternalDatabase\bin\Debug\ExternalDatabase.exe
+D:\HTML Mohinder\C#\ExternalDatabase\ExternalDatabase\bin\Debug\ExternalDatabase.pdb
+D:\HTML Mohinder\C#\ExternalDatabase\ExternalDatabase\obj\Debug\ExternalDatabase.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\ExternalDatabase\ExternalDatabase\obj\Debug\ExternalDatabase.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\ExternalDatabase\ExternalDatabase\obj\Debug\ExternalDatabase.exe
+D:\HTML Mohinder\C#\ExternalDatabase\ExternalDatabase\obj\Debug\ExternalDatabase.pdb

@@ -1,0 +1,6 @@
+D:\HTML Mohinder\C#\LibraryTask1\LibraryTask1\bin\Debug\LibraryTask1.dll
+D:\HTML Mohinder\C#\LibraryTask1\LibraryTask1\bin\Debug\LibraryTask1.pdb
+D:\HTML Mohinder\C#\LibraryTask1\LibraryTask1\obj\Debug\LibraryTask1.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\LibraryTask1\LibraryTask1\obj\Debug\LibraryTask1.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\LibraryTask1\LibraryTask1\obj\Debug\LibraryTask1.dll
+D:\HTML Mohinder\C#\LibraryTask1\LibraryTask1\obj\Debug\LibraryTask1.pdb

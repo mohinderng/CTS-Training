@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\DataTypesExample\DataTypesExample\obj\Debug\DataTypesExample.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\DataTypesExample\DataTypesExample\obj\Debug\DataTypesExample.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\DataTypesExample\DataTypesExample\bin\Debug\DataTypesExample.exe.config
+D:\HTML Mohinder\C#\DataTypesExample\DataTypesExample\bin\Debug\DataTypesExample.exe
+D:\HTML Mohinder\C#\DataTypesExample\DataTypesExample\bin\Debug\DataTypesExample.pdb
+D:\HTML Mohinder\C#\DataTypesExample\DataTypesExample\obj\Debug\DataTypesExample.exe
+D:\HTML Mohinder\C#\DataTypesExample\DataTypesExample\obj\Debug\DataTypesExample.pdb

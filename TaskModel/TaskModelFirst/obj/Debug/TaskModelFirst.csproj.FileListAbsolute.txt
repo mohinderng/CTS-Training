@@ -1,0 +1,11 @@
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\obj\Debug\TaskModelFirst.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\obj\Debug\TaskModelFirst.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\bin\Debug\TaskModelFirst.exe.config
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\bin\Debug\TaskModelFirst.exe
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\bin\Debug\TaskModelFirst.pdb
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\bin\Debug\EntityFramework.dll
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\bin\Debug\EntityFramework.xml
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\obj\Debug\TaskModelFirst.exe
+D:\HTML Mohinder\C#\TaskModelFirst\TaskModelFirst\obj\Debug\TaskModelFirst.pdb

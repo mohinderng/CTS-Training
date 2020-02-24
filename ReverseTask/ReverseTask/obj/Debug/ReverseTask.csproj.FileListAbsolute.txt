@@ -1,0 +1,10 @@
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\bin\Debug\ReverseTask.exe.config
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\bin\Debug\ReverseTask.exe
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\bin\Debug\ReverseTask.pdb
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\bin\Debug\ReverseFunc.dll
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\bin\Debug\ReverseFunc.pdb
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\obj\Debug\ReverseTask.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\obj\Debug\ReverseTask.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\obj\Debug\ReverseTask.csproj.CopyComplete
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\obj\Debug\ReverseTask.exe
+D:\HTML Mohinder\C#\ReverseTask\ReverseTask\obj\Debug\ReverseTask.pdb

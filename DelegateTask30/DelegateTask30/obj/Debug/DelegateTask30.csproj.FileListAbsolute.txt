@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\DelegateTask30\DelegateTask30\bin\Debug\DelegateTask30.exe.config
+D:\HTML Mohinder\C#\DelegateTask30\DelegateTask30\bin\Debug\DelegateTask30.exe
+D:\HTML Mohinder\C#\DelegateTask30\DelegateTask30\bin\Debug\DelegateTask30.pdb
+D:\HTML Mohinder\C#\DelegateTask30\DelegateTask30\obj\Debug\DelegateTask30.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\DelegateTask30\DelegateTask30\obj\Debug\DelegateTask30.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\DelegateTask30\DelegateTask30\obj\Debug\DelegateTask30.exe
+D:\HTML Mohinder\C#\DelegateTask30\DelegateTask30\obj\Debug\DelegateTask30.pdb

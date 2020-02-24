@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\LocalConnection1\LocalConnection1\bin\Debug\LocalConnection1.exe.config
+D:\HTML Mohinder\C#\LocalConnection1\LocalConnection1\bin\Debug\LocalConnection1.exe
+D:\HTML Mohinder\C#\LocalConnection1\LocalConnection1\bin\Debug\LocalConnection1.pdb
+D:\HTML Mohinder\C#\LocalConnection1\LocalConnection1\obj\Debug\LocalConnection1.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\LocalConnection1\LocalConnection1\obj\Debug\LocalConnection1.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\LocalConnection1\LocalConnection1\obj\Debug\LocalConnection1.exe
+D:\HTML Mohinder\C#\LocalConnection1\LocalConnection1\obj\Debug\LocalConnection1.pdb

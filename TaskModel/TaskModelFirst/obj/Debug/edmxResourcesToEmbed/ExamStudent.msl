@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExamStudentStoreContainer" CdmEntityContainer="ExamStudentContainer">
+    <EntitySetMapping Name="Exams">
+      <EntityTypeMapping TypeName="IsTypeOf(ExamStudent.Exam)">
+        <MappingFragment StoreEntitySet="Exams">
+          <ScalarProperty Name="Eid" ColumnName="Eid" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Results">
+      <EntityTypeMapping TypeName="IsTypeOf(ExamStudent.Result)">
+        <MappingFragment StoreEntitySet="Results">
+          <ScalarProperty Name="Rid" ColumnName="Rid" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="ExamEid" ColumnName="ExamEid" />
+          <ScalarProperty Name="StudentSid" ColumnName="StudentSid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="IsTypeOf(ExamStudent.Student)">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

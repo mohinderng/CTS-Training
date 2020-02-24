@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ExamStudent.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ExamStudentStoreContainer">
+    <EntitySet Name="Exams" EntityType="ExamStudent.Store.Exams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Results" EntityType="ExamStudent.Store.Results" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Students" EntityType="ExamStudent.Store.Students" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ExamResult" Association="ExamStudent.Store.ExamResult">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="Result" EntitySet="Results" />
+    </AssociationSet>
+    <AssociationSet Name="StudentResult" Association="ExamStudent.Store.StudentResult">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Result" EntitySet="Results" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Exams">
+    <Key>
+      <PropertyRef Name="Eid" />
+    </Key>
+    <Property Name="Eid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ename" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TotalMarks" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Results">
+    <Key>
+      <PropertyRef Name="Rid" />
+    </Key>
+    <Property Name="Rid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Score" Type="int" Nullable="false" />
+    <Property Name="ExamEid" Type="int" Nullable="false" />
+    <Property Name="StudentSid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="Sid" />
+    </Key>
+    <Property Name="Sid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sname" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="ExamResult">
+    <End Role="Exam" Type="ExamStudent.Store.Exams" Multiplicity="1" />
+    <End Role="Result" Type="ExamStudent.Store.Results" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="Eid" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="ExamEid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentResult">
+    <End Role="Student" Type="ExamStudent.Store.Students" Multiplicity="1" />
+    <End Role="Result" Type="ExamStudent.Store.Results" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Sid" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="StudentSid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ExamStudent" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ExamStudentContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Exams" EntityType="ExamStudent.Exam" />
+          <EntitySet Name="Results" EntityType="ExamStudent.Result" />
+          <EntitySet Name="Students" EntityType="ExamStudent.Student" />
+          <AssociationSet Name="ExamResult" Association="ExamStudent.ExamResult">
+            <End Role="Exam" EntitySet="Exams" />
+            <End Role="Result" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="StudentResult" Association="ExamStudent.StudentResult">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="Result" EntitySet="Results" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Exam">
+          <Key>
+            <PropertyRef Name="Eid" />
+          </Key>
+          <Property Name="Eid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ename" Type="String" Nullable="false" />
+          <Property Name="TotalMarks" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Results" Relationship="ExamStudent.ExamResult" FromRole="Exam" ToRole="Result" />
+        </EntityType>
+        <EntityType Name="Result">
+          <Key>
+            <PropertyRef Name="Rid" />
+          </Key>
+          <Property Name="Rid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Score" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Exam" Relationship="ExamStudent.ExamResult" FromRole="Result" ToRole="Exam" />
+          <Property Name="ExamEid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Student" Relationship="ExamStudent.StudentResult" FromRole="Result" ToRole="Student" />
+          <Property Name="StudentSid" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Sid" />
+          </Key>
+          <Property Name="Sid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Sname" Type="String" Nullable="false" />
+          <NavigationProperty Name="Results" Relationship="ExamStudent.StudentResult" FromRole="Student" ToRole="Result" />
+        </EntityType>
+        <Association Name="ExamResult">
+          <End Type="ExamStudent.Exam" Role="Exam" Multiplicity="1" />
+          <End Type="ExamStudent.Result" Role="Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exam">
+              <PropertyRef Name="Eid" />
+            </Principal>
+            <Dependent Role="Result">
+              <PropertyRef Name="ExamEid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StudentResult">
+          <End Type="ExamStudent.Student" Role="Student" Multiplicity="1" />
+          <End Type="ExamStudent.Result" Role="Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="Sid" />
+            </Principal>
+            <Dependent Role="Result">
+              <PropertyRef Name="StudentSid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExamStudentStoreContainer" CdmEntityContainer="ExamStudentContainer">
+    <EntitySetMapping Name="Exams">
+      <EntityTypeMapping TypeName="IsTypeOf(ExamStudent.Exam)">
+        <MappingFragment StoreEntitySet="Exams">
+          <ScalarProperty Name="Eid" ColumnName="Eid" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Results">
+      <EntityTypeMapping TypeName="IsTypeOf(ExamStudent.Result)">
+        <MappingFragment StoreEntitySet="Results">
+          <ScalarProperty Name="Rid" ColumnName="Rid" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="ExamEid" ColumnName="ExamEid" />
+          <ScalarProperty Name="StudentSid" ColumnName="StudentSid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="IsTypeOf(ExamStudent.Student)">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExamStudent.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ExamStudentStoreContainer">
+    <EntitySet Name="Exams" EntityType="ExamStudent.Store.Exams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Students" EntityType="ExamStudent.Store.Students" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Results" EntityType="ExamStudent.Store.Results" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="StudentResult" Association="ExamStudent.Store.StudentResult">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Result" EntitySet="Results" />
+    </AssociationSet>
+    <AssociationSet Name="ExamResult" Association="ExamStudent.Store.ExamResult">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="Result" EntitySet="Results" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Exams">
+    <Key>
+      <PropertyRef Name="Eid" />
+    </Key>
+    <Property Name="Eid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ename" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TotalMarks" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="Sid" />
+    </Key>
+    <Property Name="Sid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Score" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Results">
+    <Key>
+      <PropertyRef Name="Rid" />
+    </Key>
+    <Property Name="Rid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentSid" Type="int" Nullable="false" />
+    <Property Name="ExamEid" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="StudentResult">
+    <End Role="Student" Type="ExamStudent.Store.Students" Multiplicity="1" />
+    <End Role="Result" Type="ExamStudent.Store.Results" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Sid" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="StudentSid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ExamResult">
+    <End Role="Exam" Type="ExamStudent.Store.Exams" Multiplicity="1" />
+    <End Role="Result" Type="ExamStudent.Store.Results" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="Eid" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="ExamEid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

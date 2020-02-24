@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\Task18\Task18\obj\Debug\Task18.csprojAssemblyReference.cache
+D:\HTML Mohinder\C#\Task18\Task18\obj\Debug\Task18.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\Task18\Task18\bin\Debug\Task18.exe.config
+D:\HTML Mohinder\C#\Task18\Task18\bin\Debug\Task18.exe
+D:\HTML Mohinder\C#\Task18\Task18\bin\Debug\Task18.pdb
+D:\HTML Mohinder\C#\Task18\Task18\obj\Debug\Task18.exe
+D:\HTML Mohinder\C#\Task18\Task18\obj\Debug\Task18.pdb

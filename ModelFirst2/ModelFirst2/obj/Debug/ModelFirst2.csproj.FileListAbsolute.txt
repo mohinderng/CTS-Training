@@ -1,0 +1,11 @@
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\obj\Debug\ModelFirst2.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\obj\Debug\ModelFirst2.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\bin\Debug\ModelFirst2.exe.config
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\bin\Debug\ModelFirst2.exe
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\bin\Debug\ModelFirst2.pdb
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\bin\Debug\EntityFramework.dll
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\bin\Debug\EntityFramework.SqlServer.dll
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\bin\Debug\EntityFramework.xml
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\bin\Debug\EntityFramework.SqlServer.xml
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\obj\Debug\ModelFirst2.exe
+D:\HTML Mohinder\C#\ModelFirst2\ModelFirst2\obj\Debug\ModelFirst2.pdb

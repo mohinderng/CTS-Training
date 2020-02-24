@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+
+    <script>
+        function loginvalidate() {
+            var name = document.loginval.username.value;
+            var pass = document.loginval.password.value;
+
+            if (name == " " || pass == " ") {
+                alert("Username cannot be blank");
+                return false;
+            }
+
+            else if (name == "mohindernegi@gmail.com" && pass == "mohinder123") {
+                alert("Correct information");
+                return true;
+            }
+
+            else {
+                alert("Wrong information");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body background="Paris.jpg" style="background-repeat:no-repeat;background-size:cover;
+      background-color:#333;opacity:0.8">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div align="center" >
+        <h1 style="background-color:#333;color:white;padding:15px;width:23%;opacity:2">LOGIN</h1>
+        <br />
+        <div style="background-color:#333;color:white;width:25%" align="center">
+
+            <form name="loginval" action="BookingPage.html" onsubmit="return loginvalidate()">
+            <table style="opacity:2">
+                <tr>
+                    <td>Enter Username</td>
+                    <td>
+                        <input type="text" name="username" />
+                    </td>
+                </tr>
+                <br />
+                <tr>
+                    <td>Enter Password</td>
+                    <td>
+                        <input type="text" name="password" />
+                    </td>
+                </tr>
+
+            </table>
+                <input type="submit" value="Login" />
+                </form>
+            <br />
+            
+        </div>
+    </div>
+</body>
+</html>

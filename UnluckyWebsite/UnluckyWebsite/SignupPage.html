@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sign Up Page</title>
+    <script>
+        function validate1()
+        {
+            var name = document.signup.fName.value;
+            var phonee = document.signup.number.value;
+            var pass = document.signup.password.value;
+            var passchk = document.signup.passwordchk.value;
+            if (name == "") {
+                alert("Name cannot be blank");
+                return false;
+            }
+            else if (phonee.length != 10) {
+                alert("Invalid Phone Number");
+                return false;
+            } else if (pass != passchk|| pass=="") {
+                alert("Password doesnt match");
+                return false;
+            }
+            else {
+                alert("Signup Sucessful");
+                return true;
+            }
+
+
+
+        }
+
+    </script>
+    <style>
+    .login-page {
+            width: 360px;
+            padding: 20px 0 0;
+            margin: auto;
+        }
+
+        .form {
+            position: relative;
+            background: #333;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+    </style>
+</head>
+<body background="Paris.jpg" style="background-repeat:no-repeat;background-size:cover;
+      background-color:#333;opacity:0.8">
+    <div align="center">
+    <h1 style="background-color:#333;color:white;width:30%;opacity:2">SIGN UP</h1>
+        </div>
+    <div class="login-page form">
+        <form name="signup" action="LoginPage.html" onsubmit="return validate1()">
+            <table style="color:white">
+                <tr>
+                    <td style="text-align:left">Enter First Name</td>
+                    <td>
+                        <input type="text" name="fName" />
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td style="text-align:left">Enter Last Name</td>
+                    <td>
+                        <input type="text" name="lName" />
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>Enter Mobile Number</td>
+                    <td>
+                        <input type="text" name="number" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:left">Choose Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" checked />Male
+                        <input type="radio" name="gender" value="Female" />Female
+                        <input type="radio" name="gender" value="Others" />Others
+                    </td>
+                <tr>
+                    <td style="text-align:left">Enter DOB</td>
+                    <td>
+                        <input type="date" name="DOB" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:left">Enter Email Id</td>
+                    <td>
+                        <input type="text" name="email" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:left">Enter Username</td>
+                    <td>
+                        <input type="text" name="username" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:left">Enter Password</td>
+                    <td>
+                        <input type="password" name="password" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:left">Re-Enter Password</td>
+                    <td>
+                        <input type="password" name="passwordchk" />
+                    </td>
+                </tr>
+
+            </table>
+            <input type="submit" value="Submit" />
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+D:\HTML Mohinder\C#\StringTask30\StringTask30\bin\Debug\StringTask30.exe.config
+D:\HTML Mohinder\C#\StringTask30\StringTask30\bin\Debug\StringTask30.exe
+D:\HTML Mohinder\C#\StringTask30\StringTask30\bin\Debug\StringTask30.pdb
+D:\HTML Mohinder\C#\StringTask30\StringTask30\obj\Debug\StringTask30.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\StringTask30\StringTask30\obj\Debug\StringTask30.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\StringTask30\StringTask30\obj\Debug\StringTask30.exe
+D:\HTML Mohinder\C#\StringTask30\StringTask30\obj\Debug\StringTask30.pdb

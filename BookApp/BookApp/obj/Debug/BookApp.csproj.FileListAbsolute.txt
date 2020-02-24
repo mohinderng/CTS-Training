@@ -1,0 +1,13 @@
+D:\HTML Mohinder\C#\BookApp\BookApp\bin\Debug\BookApp.exe.config
+D:\HTML Mohinder\C#\BookApp\BookApp\bin\Debug\BookApp.exe
+D:\HTML Mohinder\C#\BookApp\BookApp\bin\Debug\BookApp.pdb
+D:\HTML Mohinder\C#\BookApp\BookApp\bin\Debug\EntityFramework.dll
+D:\HTML Mohinder\C#\BookApp\BookApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\HTML Mohinder\C#\BookApp\BookApp\bin\Debug\EntityFramework.xml
+D:\HTML Mohinder\C#\BookApp\BookApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\HTML Mohinder\C#\BookApp\BookApp\obj\Debug\BookApp.csprojResolveAssemblyReference.cache
+D:\HTML Mohinder\C#\BookApp\BookApp\obj\Debug\BookApp.csproj.CoreCompileInputs.cache
+D:\HTML Mohinder\C#\BookApp\BookApp\obj\Debug\BookApp.exe
+D:\HTML Mohinder\C#\BookApp\BookApp\obj\Debug\BookApp.pdb
+D:\HTML Mohinder\C#\BookApp\BookApp\obj\Debug\BookApp.Migrations.final.resources
+D:\HTML Mohinder\C#\BookApp\BookApp\obj\Debug\BookApp.csproj.GenerateResource.Cache
